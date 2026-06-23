@@ -1,0 +1,8 @@
+{
+  "chapters": [
+    { "id": "chapter1", "title": "函数与极限", "order": 1, "summary": "函数的概念、极限的定义与运算法则" },
+    { "id": "chapter2", "title": "导数与微分", "order": 2, "summary": "导数的定义、求导法则与微分的应用" },
+    { "id": "chapter3", "title": "不定积分", "order": 3, "summary": "不定积分的概念与基本积分法" },
+    { "id": "chapter4", "title": "定积分", "order": 4, "summary": "定积分的定义、性质与计算方法" }
+  ]
+}

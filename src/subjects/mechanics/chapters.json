@@ -1,0 +1,8 @@
+{
+  "chapters": [
+    { "id": "chapter1", "title": "静力学基础", "order": 1, "summary": "力的分解、力矩与平衡方程" },
+    { "id": "chapter2", "title": "运动学", "order": 2, "summary": "点的运动、刚体的平动与转动" },
+    { "id": "chapter3", "title": "动力学", "order": 3, "summary": "牛顿定律、动量与动能定理" },
+    { "id": "chapter4", "title": "拉格朗日力学", "order": 4, "summary": "约束系统与拉格朗日方程" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "subjects": [
+    {
+      "id": "math",
+      "name": "高等数学",
+      "icon": "📐"
+    },
+    {
+      "id": "english",
+      "name": "英语四级",
+      "icon": "📝"
+    },
+    {
+      "id": "mechanics",
+      "name": "理论力学",
+      "icon": "⚙️"
+    },
+    {
+      "id": "electronics",
+      "name": "电工电子学",
+      "icon": "⚡"
+    },
+    {
+      "id": "python",
+      "name": "Python 自学",
+      "icon": "🐍"
+    }
+  ]
+}

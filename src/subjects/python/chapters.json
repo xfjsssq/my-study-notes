@@ -1,0 +1,8 @@
+{
+  "chapters": [
+    { "id": "chapter1", "title": "Python 基础语法", "order": 1, "summary": "变量、数据类型、控制流与函数" },
+    { "id": "chapter2", "title": "面向对象编程", "order": 2, "summary": "类、继承、多态与封装" },
+    { "id": "chapter3", "title": "常用标准库", "order": 3, "summary": "os、sys、re、datetime 等模块" },
+    { "id": "chapter4", "title": "数据分析入门", "order": 4, "summary": "NumPy、Pandas 基础操作" }
+  ]
+}
