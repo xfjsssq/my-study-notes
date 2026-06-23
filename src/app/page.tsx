@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Sidebar from "@/components/Sidebar";
 import SearchModal from "@/components/SearchModal";
@@ -15,7 +15,7 @@ import { getAllContentTrees } from "@/lib/content";
 import type { ChapterIndex } from "@/lib/types";
 
 export default function Home() {
-  const [contentTrees, setContentTrees] = useState<ContentTree[]>([]);
+  const [contentTrees] = useState(() => getAllContentTrees());
   const [searchOpen, setSearchOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [syncStatus, setSyncStatus] = useState<
@@ -26,11 +26,6 @@ export default function Home() {
     done: 0,
     percent: 0,
   });
-
-  // Load content tree
-  useEffect(() => {
-    setContentTrees(getAllContentTrees());
-  }, []);
 
   // Load and sync progress
   useEffect(() => {
