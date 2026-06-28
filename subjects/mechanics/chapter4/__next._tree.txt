@@ -1,0 +1,3 @@
+:HL["/my-study-notes/_next/static/chunks/0vktzdfco_wdm.css","style"]
+:HL["https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"subjects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"c","key":"mechanics/chapter4","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"v5wwmGaqq1-B0dgcRpHN_"}

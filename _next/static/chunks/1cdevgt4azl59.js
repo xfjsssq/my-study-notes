@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,5659,(i,l,t)=>{l.exports=[{title:"【B站】高等数学-函数与极限 精讲",url:"https://www.bilibili.com/video/BV1GJ411x7h7",platform:"bilibili"},{title:"【B站】ε-δ 语言直观理解",url:"https://www.bilibili.com/video/BV1Vt411T7j1",platform:"bilibili"}]}]);

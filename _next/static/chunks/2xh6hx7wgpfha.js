@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,77602,(i,o,t)=>{o.exports=[{title:"【B站】Python 零基础入门教程",url:"https://www.bilibili.com/video/BV1wD4y1o7AS",platform:"bilibili"}]}]);
