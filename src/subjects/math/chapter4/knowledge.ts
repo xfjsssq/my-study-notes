@@ -1,5 +1,5 @@
 // 高等数学 — 第四章：定积分
-export default `
+export default String.raw`
 ## 📖 知识要点
 
 ### 1. 定积分的定义
