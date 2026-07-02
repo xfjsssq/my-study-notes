@@ -1,0 +1,35 @@
+﻿import os
+
+base = r'D:\Agent\Agent  workplace\Claude Code工作区\learn\project\src\subjects\math'
+
+chapter5 = u'// \u9ad8\u7b49\u6570\u5b66 - \u7b2c\u4e94\u7ae0\uff1a\u591a\u5143\u51fd\u6570\u5fae\u5206\u5b66\n'
+chapter5 += u'export default `\n'
+chapter5 += u'## \u591a\u5143\u51fd\u6570\u5fae\u5206\u5b66\n\n'
+chapter5 += u'### 1. \u504f\u5bfc\u6570\n\n'
+chapter5 += u'\u8bbe\u51fd\u6570 z=f(x,y) \u5728\u70b9 (x0,y0) \u7684\u67d0\u90bb\u57df\u5185\u6709\u5b9a\u4e49\u3002\n\n'
+chapter5 += u'### 2. \u5168\u5fae\u5206\n\n'
+chapter5 += u'\u82e5\u5168\u589e\u91cf\u53ef\u8868\u793a\u4e3a\u7ebf\u6027\u4e3b\u90e8\u52a0\u9ad8\u9636\u65e0\u5c0f\u5219\u53ef\u5fae\u3002\n\n'
+chapter5 += u'### 3. \u94fe\u5f0f\u6cd5\u5219\n\n'
+chapter5 += u'\u82e5 z=f(u,v)\uff0cu=\u03c6(x,y), v=\u03c8(x,y)\uff0c\u5219\u9700\u6b63\u786e\u5957\u7528\u94fe\u5f0f\u6cd5\u5219\u3002\n\n'
+chapter5 += u'### 4. \u65b9\u5411\u5bfc\u6570\u4e0e\u68af\u5ea6\n\n'
+chapter5 += u'\u68af\u5ea6\u6307\u5411\u51fd\u6570\u589e\u957f\u6700\u5feb\u7684\u65b9\u5411\u3002\n\n'
+chapter5 += u'### 5. \u591a\u5143\u6781\u503c\n\n'
+chapter5 += u'\u65e0\u6761\u4ef6\u6781\u503c\u53d6\u6cbb\u70b9\uff0c\u6709\u6761\u4ef6\u6781\u503c\u7528\u62c9\u683c\u6717\u65e5\u4e58\u6570\u6cd5\u3002\n`;'
+
+chapter6 = u'// \u9ad8\u7b49\u6570\u5b66 - \u7b2c\u516d\u7ae0\uff1a\u591a\u5143\u51fd\u6570\u79ef\u5206\u5b66\n'
+chapter6 += u'export default `\n'
+chapter6 += u'## \u591a\u5143\u51fd\u6570\u79ef\u5206\u5b66\n\n'
+chapter6 += u'### 1. \u4e8c\u91cd\u79ef\u5206\n\n'
+chapter6 += u'\u4e8c\u91cd\u79ef\u5206\u662f\u5b9a\u79ef\u5206\u5728\u4e8c\u7ef4\u533a\u57df\u7684\u63a8\u5e7f\u3002\n\n'
+chapter6 += u'### 2. \u4e09\u91cd\u79ef\u5206\n\n'
+chapter6 += u'\u4e09\u91cd\u79ef\u5206\u5c06\u79ef\u5206\u533a\u57df\u63a8\u5e7f\u5230\u4e09\u7ef4\u7a7a\u95f4\u3002\n\n'
+chapter6 += u'### 3. \u66f2\u7ebf\u79ef\u5206\n\n'
+chapter6 += u'\u66f2\u7ebf\u79ef\u5206\u5206\u4e3a\u5bf9\u5f27\u957f\u548c\u5bf9\u5750\u6807\u7684\u66f2\u7ebf\u79ef\u5206\u3002\n\n'
+chapter6 += u'### 4. \u66f2\u9762\u79ef\u5206\n\n'
+chapter6 += u'\u66f2\u9762\u79ef\u5206\u662f\u66f2\u7ebf\u79ef\u5206\u5728\u66f2\u9762\u4e0a\u7684\u63a8\u5e7f\u3002\n\n'
+chapter6 += u'### 5. \u573a\u8bba\u521d\u6b65\n\n'
+chapter6 += u'\u4e86\u89e3\u68af\u5ea6\u3001\u6563\u5ea6\u3001\u65cb\u5ea6\u7684\u57fa\u672c\u610f\u4e49\u3002\n`;'
+
+open(os.path.join(base, 'chapter5', 'knowledge.ts'), 'w', encoding='utf-8').write(chapter5)
+open(os.path.join(base, 'chapter6', 'knowledge.ts'), 'w', encoding='utf-8').write(chapter6)
+print('chapter5/chapter6 rewritten with unicode escapes')

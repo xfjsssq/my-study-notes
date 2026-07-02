@@ -162,7 +162,7 @@ export default function Home() {
               return (
                 <Link
                   key={subject.id}
-                  href={`/my-study-notes/subjects/${subject.id}`}
+                  href={`/subjects/${subject.id}`}
                   className="group block p-5 rounded-lg border border-[var(--color-border)] hover:shadow-card hover:border-[var(--color-accent-muted)] transition-all bg-[var(--color-bg)]"
                 >
                   <div className="flex items-center gap-3 mb-2">
